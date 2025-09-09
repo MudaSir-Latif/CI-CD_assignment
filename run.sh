@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello World from me and Mudassir Latif"
+echo "Hello World from Owias Iqbal and Mudassir Latif"
