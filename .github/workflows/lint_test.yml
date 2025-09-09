@@ -19,8 +19,11 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install linter
-        run: pip install flake8
+      - name: Install tools
+        run: pip install flake8 black
+
+      - name: Auto-format with Black
+        run: black .
 
       - name: Run lint
         run: flake8 .
